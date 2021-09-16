@@ -1,38 +1,355 @@
-.App {
+/* .App {
+  text-align: center;
+} */
+
+.sectionHeading {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* *********************** HOME PAGE *********************** */
+
+.homepage {
+  height: 70vh;
+  font-size: 2.5em;
+  margin-top: 20vh;
+  margin-left: 5%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.homeText1 {
+  font-size: 1.5em;
+}
+.homeText2 {
+  font-size: 1.1em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.myWorkBtn {
+  font-size: 1.1rem;
+  border: 2px solid #000;
+  border-radius: 40px;
+  border: transparent;
+  padding: 15px;
+  color: #fff;
+  background-color: #437bce;
+  text-decoration: none;
+}
+
+.myWorkBtn:hover {
+  /* border: 2px solid #000; */
+  /* background-color: #fff; */
+  color: #000;
+}
+
+/* *********************** NAV *********************** */
+
+.topNav {
+  margin-top: 20px;
+  margin-left: 5%;
+}
+
+.topNavLink {
+  font-size: 1.2em;
+  text-decoration: none;
+  color: #000;
+  margin: 5% 2% 5% 0%;
+  border-bottom: 2.5px solid transparent;
+}
+
+.topNavLink:hover {
+  border-bottom: 2.5px solid #437bce;
+}
+
+/* *********************** BACK TO TOP BUTTON *********************** */
+
+/* #backToTop {
+  position: fixed;
+  top: 87vh;
+  left: 92vw;
+}
+
+#backToTop button {
+  background-color: #437bce;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+
+#backToTop button a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 65px;
+}
+
+#backToTop button:hover {
+background-color: #000;
+} */
+
+/* *********************** PROJECTS *********************** */
+
+#projects,
+#skills {
+  margin: 2.5% 0% 5% 0%;
+  padding: 0% 5%;
+  min-height: 43vh;
+  text-align: center;
+  background-color: #fafafa;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+}
+
+#projects {
+margin-bottom: 0;
+padding-bottom: 5%;
+}
+
+.projectsHeading {
+  margin-top: 10%;
+  padding: 2% 0%;
+}
+
+.card {
+  text-align: left;
+  background-image: none;
+  overflow: hidden;
+  margin: 2%;
+  width: 40%;
+}
+
+.card:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.03);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-grid {
+  margin: auto;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
-.App-link {
-  color: #61dafb;
+.card-img {
+  height: 60%;
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* project buttons  */
+
+.projectBtnGroup {
+  margin: 0% 35%;
+}
+
+.projectBtn {
+  text-align: center;
+  margin: 0% 1%;
+  color: #fff;
+  background-color: #437bce;
+}
+
+/* *********************** SKILLS *********************** */
+
+#skills {
+  margin-bottom: 0%;
+  padding-bottom: 5%;
+  margin-top: 0;
+}
+
+.skill-card {
+  width: 25%;
+  padding: 0% 0% 15%;
+  text-align: center;
+}
+
+.skill-logo-title {
+  font-size: 2em;
+  padding-bottom: 20%;
+}
+
+.skillList {
+  padding: 5% 0%;
+}
+
+/* *********************** EDUCATION *********************** */
+
+#education {
+  margin: 0%;
+  padding: 5% 10% 5% 10%;
+  min-height: 25vh;
+}
+
+.edu-heading,
+.edu-text {
+  margin: 1.5% 20%;
+  text-align: center;
+}
+
+.edu-heading {
+  margin-top: 0;
+}
+
+.edu-text {
+  text-align: left;
+}
+
+.moduleList {
+  align-items: center;
+}
+
+.moduleList li {
+  text-align: left;
+  margin-left: 20%;
+}
+
+/* *********************** CONTACT *********************** */
+
+#contact {
+  margin: 5% 0% 0% 0%;
+  padding: auto 10%;
+  padding-top: 1.5%;
+  text-align: center;
+  background-color: #585d71;
+  color: #fff;
+}
+
+#contact p {
+  margin-bottom: 0;
+  padding-bottom: 1.5%;
+}
+
+/* social icons */
+
+.social-icon {
+  margin: 2%;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 40px;
+}
+
+.social-icon:hover,
+.headshot:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.05);
+}
+
+/* *********************** FOOTER *********************** */
+
+.footer {
+  text-align: center;
+  background-color: #585d71;
+  color: #fff;
+  margin: 0%;
+}
+
+.footer p {
+  margin-bottom: 0;
+  padding-bottom: 1.5%;
+}
+
+/* *********************** ANIMATION *********************** */
+
+svg {
+  width: 256px;
+  height: 256px;
+}
+
+/* SMOKE */
+#smoke-1 {
+  stroke-dasharray: 0, 10;
+  animation: smoke 3s ease infinite;
+}
+
+#smoke-2 {
+  stroke-dasharray: 0, 10;
+  animation: smoke 3s 0.5s ease infinite;
+}
+
+@keyframes smoke {
+  0% {
+    stroke-dasharray: 0, 10;
   }
-  to {
-    transform: rotate(360deg);
+  50% {
+    stroke-dasharray: 10, 0;
+  }
+  100% {
+    stroke-dasharray: 10, 0;
+    opacity: 0;
   }
 }
+
+/* WRITING */
+#line-1 {
+  opacity: 0;
+  animation: writing 0.5s linear forwards;
+}
+
+#line-2 {
+  opacity: 0;
+  animation: writing 0.5s 1s linear forwards;
+}
+
+#line-3 {
+  opacity: 0;
+  animation: writing 0.5s 1.5s linear forwards;
+}
+
+#line-4 {
+  opacity: 0;
+  animation: writing 0.5s 2s linear forwards;
+}
+
+@keyframes writing {
+  0% {
+    width: 0px;
+    opacity: 1;
+  }
+  100% {
+    width: 14px;
+    opacity: 1;
+  }
+}
+
+.coffeeAnimation {
+  float: right;
+  padding-right: 15%;
+}
+
+/* *********************** RESPONSIVE CSS *********************** */
+
+/* small screen */
+@media screen and (max-width: 600px) {
+  .homepage {
+    margin-top: 15%;
+  }
+  .coffeeAnimation {
+    float: left;
+    padding-right: 0%;
+    padding-left: 5%;
+    margin-top: 20%;
+  }
+
+  @media screen and (max-width: 900px) {
+    .card-grid {
+      display: block;
+    }
+    .card {
+      width: 100%;
+    }
+    #homepage {
+      /* margin: 25% 10%; */
+      height: 100vh;
+      display: block;
+      color: #fafafa;
+    }
+    .projectsHeading {
+      margin-top: 30%;
+    }
+    .projectBtnGroup {
+      margin: 0% 34%;
+    }
+    .projectBtn {
+      margin: 0.5%;
+    }
+  }
+}
+
