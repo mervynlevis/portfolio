@@ -1,8 +1,5 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faDatabase } from '@fortawesome/free-solid-svg-icons'
-
 import StorageIcon from '@material-ui/icons/Storage';
 import CodeIcon from '@material-ui/icons/Code';
 import QueueIcon from '@material-ui/icons/Queue';
@@ -13,9 +10,9 @@ function Skills() {
     {
       image: <CodeIcon/>,
       title: "Frontend",
-      text: "HTML, CSS, Bootstrap",
-      text2: "React, Javascript ES6",
-      text3:  "JQuery",
+      text: "React, Javascript ES6",
+      text2: "HTML, CSS, Bootstrap",
+      text3:  "Material UI, JQuery",
       link: "https://still-springs-48646.herokuapp.com/",
     },
     {
@@ -40,7 +37,7 @@ function Skills() {
     return (
       <Card className="skill-card" key={index}>
         <Card.Body>
-          <Icon className="skill-logo">{card.image}</Icon>
+          <Icon className="skill-logo" fontSize="large">{card.image}</Icon>
           <Card.Title className="skill-logo-title">{card.title}</Card.Title>
           <div className="skillList">
           <Card.Text>{card.text}</Card.Text>
