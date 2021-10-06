@@ -70,6 +70,7 @@ function Projects() {
       text: "Vanilla Javascript top down shooter game. Three levels of increasing difficulty with scoring and lives/HP system.",
       stack: "Javascript, HTML, CSS, Bootstrap",
       link: "https://mervynlevis.github.io/cat-commando/",
+      repo: "https://github.com/mervynlevis/cat-commando"
     },
   ];
 
