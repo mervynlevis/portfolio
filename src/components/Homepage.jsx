@@ -3,10 +3,10 @@ import React from "react";
 function Homepage() {
   return (
     <div className="homepage">
-      <h1 className="homeText1"><b>Hi, I'm Mervyn.</b></h1>
-      <h2 className="homeText2">CS Graduate</h2>
+      <h1 className="homeText1"><b>Mervyn Levis</b></h1>
+      <h2 className="homeText2">Developer.</h2>
       <button className="myWorkBtn" href="#projects">
-        <a className="myWorkBtn" href="#projects"><b>My Work</b></a>
+        <a className="myWorkBtnLink" href="#projects"><b>My Work</b></a>
       </button>
       <br></br>
       <div className="coffeeAnimation">

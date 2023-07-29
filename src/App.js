@@ -5,6 +5,7 @@ import Contact from "./components/Contact";
 import Education from "./components/Education";
 import Skills from "./components/Skills";
 import Footer from "./components/Footer";
+import Experience from "./components/Experience";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
@@ -14,9 +15,10 @@ function App() {
     <div className="App">
       <Nav />
       <Homepage />
-      <Projects />
-      <Skills />
+      <Experience />
       <Education />
+      <Skills />
+      <Projects />
       <Contact />
       <Footer />
     </div>

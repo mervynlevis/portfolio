@@ -10,10 +10,9 @@ function Skills() {
     {
       image: <CodeIcon/>,
       title: "Frontend",
-      text: "React, Javascript ES6",
+      text: "React, Javascript ES6, Unqork",
       text2: "HTML, CSS, Bootstrap",
       text3:  "Material UI, JQuery",
-      link: "https://still-springs-48646.herokuapp.com/",
     },
     {
       image: <StorageIcon/>,
@@ -21,15 +20,13 @@ function Skills() {
       text: "Python, Node.js, Express",
       text2: "SQLite, MongoDB, PostgreSQL",
       text3: "Flask, Jinja2",
-      link: "https://mervynlevis.github.io/kanye-quotes/",
     },
     {
       image: <QueueIcon/>,
       title: "Other",
       text: "RESTful APIs, Git",
-      text2: "GIMP, Inkscape",
-      text3: "Audacity",
-      link: "https://mervynlevis.github.io/kanye-quotes/",
+      text2: "Jira, Miro, Figma",
+      text3: "GIMP, Inkscape, Audacity",
     },
   ];
 

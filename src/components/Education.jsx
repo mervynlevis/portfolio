@@ -3,9 +3,12 @@ import React from "react";
 function Education() {
   return (
     <div id="education">
-      <h2 className="edu-heading"><b>Education</b></h2>
+      <h2 className="edu-heading">
+        <b>Education</b>
+      </h2>
       <p className="edu-text">
-        <b>HDip Applied Computing Technology </b><b>|</b> University College Cork <b>|</b> 2020-2021 <b>|</b> <b>1.1</b>
+        <b>HDip Applied Computing Technology </b>
+        <b>|</b> University College Cork <b>|</b> 2020-2021 <b>|</b> <b>1.1</b>
       </p>
       <ul className="moduleList">
         <li>Web Development I & II</li>
@@ -18,9 +21,13 @@ function Education() {
         <li>Multimedia I & II</li>
       </ul>
       <p className="edu-text">
-      <b>MSc Exploration Field Geology </b><b>|</b> University College Cork <b>|</b> 2015-2016 <b>|</b> <b>2.1</b></p>
+        <b>MSc Exploration Field Geology </b>
+        <b>|</b> University College Cork <b>|</b> 2015-2016 <b>|</b> <b>2.1</b>
+      </p>
       <p className="edu-text">
-        <b>BSc Environmental Science: Geology </b> <b>|</b> University College Cork <b>|</b> 2011-2015 <b>|</b> <b>2.1</b></p>
+        <b>BSc Environmental Science: Geology </b> <b>|</b> University College
+        Cork <b>|</b> 2011-2015 <b>|</b> <b>2.1</b>
+      </p>
     </div>
   );
 }
