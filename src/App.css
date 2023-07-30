@@ -358,6 +358,16 @@ svg {
 /* small screen */
 
 @media screen and (max-width: 700px) {
+  .edu-heading,
+  .edu-text,
+  .exp-heading {
+    margin: 1.5% 5%;
+  }
+
+  ol,
+  ul {
+    padding-left: 0.05rem;
+  }
   .item .topNavLink {
     font-size: 0.6rem;
   }
