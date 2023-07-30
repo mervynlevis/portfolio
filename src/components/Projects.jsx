@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 
-import gamegroups from "../images/gamegroups.png";
-import records from "../images/mervs-records.png";
+// import gamegroups from "../images/gamegroups.png";
+// import records from "../images/mervs-records.png";
 import weather from "../images/weather.png";
-import facefinder from "../images/facefinder.png";
+// import facefinder from "../images/facefinder.png";
 import catcommando from "../images/cat-commando.png";
 import notekeeper from "../images/notekeeper.png";
 import quotes from "../images/quotes.png";
@@ -48,30 +48,30 @@ function Projects() {
       link: "https://mervynlevis.github.io/cat-commando/",
       repo: "https://github.com/mervynlevis/cat-commando"
     },
-    {
-      image: gamegroups,
-      title: "Game Groups",
-      text: "Full Stack Web app. Video Game/Board Game group app, registered users can create, join, leave, like groups. Features google sign in, user authentication and conditional rendering. User can edit or delete their own groups, and can also delete their accounts. Frontend hosted on netlify, backend hosted on heroku.",
-      stack: "React, Node, Express, MongoDB, Material UI",
-      link: "https://gamegroups.netlify.app/",
-      repo: "https://github.com/mervynlevis/gamegroups",
-    },
-    {
-      image: facefinder,
-      title: "Face Finder",
-      text: "Full Stack web application with user authentication, sign in, register functionality. Users enter an image url and the app finds any faces in the image using the Clarifai facial recognition API. User entries logged and displayed for the user on signin to the app. Hosted on Heroku.",
-      stack: "React, Node, Express, PostgreSQL",
-      link: "https://mlfacefinder.herokuapp.com/",
-      repo: "https://github.com/mervynlevis/facerecognition-backend",
-    },
-    {
-      image: records,
-      title: "Mervs Records",
-      text: "Full Stack Record store and review site. Features user login, register, authentication and sessions. Hosted on Heroku. Has admin features for updating the database and managing the users and stock information. Student project.",
-      stack: "Python, Flask, SQLite, Jinja2, Bootstrap",
-      link: "https://still-springs-48646.herokuapp.com/",
-      repo: "https://github.com/mervynlevis/MervsRecords",
-    },
+    // {
+    //   image: gamegroups,
+    //   title: "Game Groups",
+    //   text: "Full Stack Web app. Video Game/Board Game group app, registered users can create, join, leave, like groups. Features google sign in, user authentication and conditional rendering. User can edit or delete their own groups, and can also delete their accounts. Frontend hosted on netlify, backend hosted on heroku.",
+    //   stack: "React, Node, Express, MongoDB, Material UI",
+    //   link: "https://gamegroups.netlify.app/",
+    //   repo: "https://github.com/mervynlevis/gamegroups",
+    // },
+    // {
+    //   image: facefinder,
+    //   title: "Face Finder",
+    //   text: "Full Stack web application with user authentication, sign in, register functionality. Users enter an image url and the app finds any faces in the image using the Clarifai facial recognition API. User entries logged and displayed for the user on signin to the app. Hosted on Heroku.",
+    //   stack: "React, Node, Express, PostgreSQL",
+    //   link: "https://mlfacefinder.herokuapp.com/",
+    //   repo: "https://github.com/mervynlevis/facerecognition-backend",
+    // },
+    // {
+    //   image: records,
+    //   title: "Mervs Records",
+    //   text: "Full Stack Record store and review site. Features user login, register, authentication and sessions. Hosted on Heroku. Has admin features for updating the database and managing the users and stock information. Student project.",
+    //   stack: "Python, Flask, SQLite, Jinja2, Bootstrap",
+    //   link: "https://still-springs-48646.herokuapp.com/",
+    //   repo: "https://github.com/mervynlevis/MervsRecords",
+    // },
   ];
 
   const projectRedirect = () => {};

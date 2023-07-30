@@ -378,6 +378,10 @@ svg {
 
 /* small screen */
 @media screen and (max-width: 600px) {
+
+  .item .topNavLink {
+    font-size: .8rem;
+  }
   .homepage {
     padding-top: 15%;
   }
