@@ -3,9 +3,6 @@ import React from "react";
 function Education() {
   return (
     <div id="experience">
-      {/* <h2 className="exp-heading">
-        <b>Experience</b>
-      </h2> */}
       <div className="about-content">
         <p className="edu-text">
           <b>Expleo Group | Frontend Developer |</b> Nov '21 - Aug '23 — Dublin,

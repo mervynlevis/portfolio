@@ -1,10 +1,11 @@
 import React from "react";
-import './Footer.css';
+import "./Footer.css";
 
 function Footer() {
-    let year = new Date().getFullYear();
+  let year = new Date().getFullYear();
   return (
     <div className="footer">
+      <p>mervynlevis at gmail dot com</p>
       <p>Mervyn Levis {year} </p>
     </div>
   );

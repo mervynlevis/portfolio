@@ -16,7 +16,6 @@
 }
 .homeText2 {
   font-size: 1.2em;
-  /* color: #93B1A6; */
 }
 
 .myWorkBtn {
@@ -65,7 +64,6 @@
 }
 
 .homePageIcon a {
-  vertical-align: text-bottom!important;
   background-color: #fff;
   border-radius: 50px;
   border: 1px solid #fff;
@@ -76,75 +74,4 @@
 
 .homePageIcon a svg {
   padding-left: 0vw !important;
-}
-
-/* *********************** COFFEE ANIMATION *********************** */
-
-.coffeeAnimation {
-  float: right;
-  position: absolute;
-  right: 1%;
-  bottom: 1%;
-}
-
-svg {
-  width: 65vw;
-  height: 65vh;
-  padding-left: 10vw;
-}
-
-/* SMOKE */
-#smoke-1 {
-  stroke-dasharray: 0, 10;
-  animation: smoke 3s ease infinite;
-}
-
-#smoke-2 {
-  stroke-dasharray: 0, 10;
-  animation: smoke 3s 0.5s ease infinite;
-}
-
-@keyframes smoke {
-  0% {
-    stroke-dasharray: 0, 10;
-  }
-  50% {
-    stroke-dasharray: 10, 0;
-  }
-  100% {
-    stroke-dasharray: 10, 0;
-    opacity: 0;
-  }
-}
-
-/* WRITING */
-#line-1 {
-  opacity: 0;
-  animation: writing 0.5s linear forwards;
-}
-
-#line-2 {
-  opacity: 0;
-  animation: writing 0.5s 1s linear forwards;
-}
-
-#line-3 {
-  opacity: 0;
-  animation: writing 0.5s 1.5s linear forwards;
-}
-
-#line-4 {
-  opacity: 0;
-  animation: writing 0.5s 2s linear forwards;
-}
-
-@keyframes writing {
-  0% {
-    width: 0px;
-    opacity: 1;
-  }
-  100% {
-    width: 14px;
-    opacity: 1;
-  }
 }

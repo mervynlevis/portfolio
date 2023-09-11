@@ -3,9 +3,6 @@ import React from "react";
 function Education() {
   return (
     <div id="education">
-      {/* <h2 className="edu-heading">
-        <b>Education</b>
-      </h2> */}
       <div className="about-content">
         <p className="edu-text">
           <b>HDip Applied Computing Technology </b>
