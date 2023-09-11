@@ -1,0 +1,43 @@
+/* *********************** CONTACT *********************** */
+
+#contact {
+  /* margin: 5% 0% 0% 0%; */
+  padding: auto 10%;
+  padding-top: 1.5%;
+  text-align: center;
+  min-height: 100vh;
+  color: #fafafa;
+  background: linear-gradient(-45deg, #183d3d 50%, #040d12 50%);
+}
+
+.contactGridContainer {
+  display: grid;
+  min-height: 90vh;
+}
+
+.contactGridContainer div {
+  margin: 5%;
+  border-radius: 20px;
+    border: 1px solid #93B1A6;
+}
+
+.linkedInSection {
+  grid-column: 1/2;
+
+  background-image: url('../../images/linkedInLogo.jpeg');
+  background-position: center;
+}
+
+.gitHubSection {
+  grid-column: 2/2;
+
+  background-color: #040d12;
+  background-image: url('../../images/github-mark.png');
+  background-position: center;
+  background-size: 100%;
+}
+
+#contact p {
+  margin-bottom: 0;
+  padding-bottom: 1.5%;
+}

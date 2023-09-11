@@ -1,0 +1,13 @@
+/* *********************** FOOTER *********************** */
+
+.footer {
+    text-align: right;
+    background-color: #040d12;
+    color: #fff;
+    margin: 0%;
+  }
+  
+  .footer p {
+    margin-bottom: 0;
+    /* padding-bottom: 1.5%; */
+  }

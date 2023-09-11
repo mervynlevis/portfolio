@@ -1,0 +1,150 @@
+/* *********************** HOME PAGE *********************** */
+
+.homepage {
+  min-height: 100vh;
+  max-height: 100vh;
+  font-size: 2.5em;
+  padding-top: 30vh;
+  padding-left: 5%;
+  padding-bottom: 2.5%;
+  color: #fafafa;
+  background: linear-gradient(-45deg, #183d3d 50%, #040d12 50%);
+}
+
+.homeText1 {
+  font-size: 1.8em;
+}
+.homeText2 {
+  font-size: 1.2em;
+  /* color: #93B1A6; */
+}
+
+.myWorkBtn {
+  font-size: 1.1rem;
+  border: 2px solid transparent;
+  border-radius: 40px;
+  border: transparent;
+  padding: 6px 20px;
+  background-color: #437bce;
+  color: #585d71;
+  text-decoration: none;
+}
+.myWorkBtn {
+  background-color: #ff0000;
+}
+.myWorkBtn p {
+  padding-top: 1vh;
+  color: #000;
+}
+.myWorkBtnLink {
+  background-color: transparent;
+  font-weight: bolder;
+}
+.myWorkBtnLink:hover {
+  color: #000;
+}
+
+.myWorkBtn:hover,
+.myWorkBtn:hover p {
+  color: #000;
+  background-color: #fafafa;
+}
+
+.homePageIconContainer {
+  display: flex;
+  margin-top: 1vh;
+}
+
+.homePageIcon {
+  margin: 0.5vh 0.75vw;
+}
+
+.homePageIcon:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.05);
+}
+
+.homePageIcon a {
+  vertical-align: text-bottom!important;
+  background-color: #fff;
+  border-radius: 50px;
+  border: 1px solid #fff;
+  width: 25px!important;
+  height: 25px!important;
+  display: block!important;
+}
+
+.homePageIcon a svg {
+  padding-left: 0vw !important;
+}
+
+/* *********************** COFFEE ANIMATION *********************** */
+
+.coffeeAnimation {
+  float: right;
+  position: absolute;
+  right: 1%;
+  bottom: 1%;
+}
+
+svg {
+  width: 65vw;
+  height: 65vh;
+  padding-left: 10vw;
+}
+
+/* SMOKE */
+#smoke-1 {
+  stroke-dasharray: 0, 10;
+  animation: smoke 3s ease infinite;
+}
+
+#smoke-2 {
+  stroke-dasharray: 0, 10;
+  animation: smoke 3s 0.5s ease infinite;
+}
+
+@keyframes smoke {
+  0% {
+    stroke-dasharray: 0, 10;
+  }
+  50% {
+    stroke-dasharray: 10, 0;
+  }
+  100% {
+    stroke-dasharray: 10, 0;
+    opacity: 0;
+  }
+}
+
+/* WRITING */
+#line-1 {
+  opacity: 0;
+  animation: writing 0.5s linear forwards;
+}
+
+#line-2 {
+  opacity: 0;
+  animation: writing 0.5s 1s linear forwards;
+}
+
+#line-3 {
+  opacity: 0;
+  animation: writing 0.5s 1.5s linear forwards;
+}
+
+#line-4 {
+  opacity: 0;
+  animation: writing 0.5s 2s linear forwards;
+}
+
+@keyframes writing {
+  0% {
+    width: 0px;
+    opacity: 1;
+  }
+  100% {
+    width: 14px;
+    opacity: 1;
+  }
+}

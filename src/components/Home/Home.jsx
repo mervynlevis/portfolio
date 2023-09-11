@@ -1,15 +1,37 @@
 import React from "react";
 
-function Homepage() {
+import { SocialIcon } from "react-social-icons";
+import "./Home.css";
+
+function Home(props) {
+  const aboutButtonHandler = (event) => {
+    // pass value of selection up to App.js to show selected content
+    props.aboutButtonHandler(event.target.id);
+  };
+
   return (
     <div className="homepage">
-      <h1 className="homeText1"><b>Mervyn Levis</b></h1>
+      <h1 className="homeText1">
+        <b>Mervyn Levis</b>
+      </h1>
       <h2 className="homeText2">Developer.</h2>
-      <button className="myWorkBtn" href="#projects">
-        <a className="myWorkBtnLink" href="#projects"><b>My Work</b></a>
+      <button className="myWorkBtn" id="AboutBtn" onClick={aboutButtonHandler}>
+        <p className="myWorkBtnLink" id="AboutBtnText">
+          About
+        </p>
       </button>
-      <br></br>
-      <div className="coffeeAnimation">
+      <div className="homePageIconContainer">
+        <div className="homePageIcon">
+          <SocialIcon
+            network="linkedin"
+            url="https://www.linkedin.com/in/mervyn-levis/"
+          />
+        </div>
+        <div className="homePageIcon">
+          <SocialIcon network="github" url="https://github.com/mervynlevis" />
+        </div>
+      </div>
+      {/* <div className="coffeeAnimation">
         <svg
           width="64"
           height="64"
@@ -298,9 +320,9 @@ function Homepage() {
             </g>
           </g>
         </svg>
-      </div>
+      </div> */}
     </div>
   );
 }
 
-export default Homepage;
+export default Home;

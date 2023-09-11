@@ -1,0 +1,103 @@
+/* *********************** PROJECTS *********************** */
+
+.card {
+    text-align: left;
+    background-image: none;
+    overflow: hidden;
+    margin: 1vw;
+    width: 40%;
+  }
+  
+  .card-grid {
+    margin: auto;
+    justify-content: center;
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  .card-img {
+    height: 60%;
+    width: 100%;
+  }
+  
+  /* project buttons  */
+  
+  .projectBtnGroup {
+    margin: 0% 35%;
+  }
+  
+  .projectBtn {
+    text-align: center;
+    margin: 0% 1%;
+    color: #fff;
+    background-color: #437bce;
+  }
+
+  
+.card {
+  text-align: left;
+  background-image: none;
+  overflow: hidden;
+  margin: 1vw;
+  width: 40%;
+}
+
+
+.card-img {
+  height: 60%;
+  width: 100%;
+}
+
+  
+  /* *********************** ALT PROJECTS *********************** */
+  
+  #projects {
+    padding: 0% 1%;
+    min-height: 43vh;
+    text-align: center;
+    /* background-color: #fafafa; */
+    color: #fafafa;
+    background: linear-gradient(-45deg, #183d3d 50%, #040d12 50%);
+  }
+  
+  #projects {
+    padding-top: 2%;
+    margin-bottom: 0;
+    padding-bottom: 5%;
+  }
+  
+  .projectsHeading {
+    padding: 2% 0%;
+  }
+  
+  .projectContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 2.5% 10% 5%;
+    padding-bottom: 5%;
+    border-bottom: 2px outset #fafafa;
+  }
+  
+  .projectLeftImg:hover {
+    transition: all 0.1s ease-in-out;
+    transform: scale(1.03);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .projectLeftText {
+    grid-column: 1 / 2;
+    width: 30vw;
+    text-align: left;
+  }
+  
+  .projectRightImg {
+    grid-column: 2 / 2;
+    width: 50vw;
+  }
+  
+  .projectImg {
+    width: 100%;
+    height: 100%;
+  }
