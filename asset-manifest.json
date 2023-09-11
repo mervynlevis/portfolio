@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.eb97b890.chunk.css",
-    "main.js": "/portfolio/static/js/main.8f351952.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.8f351952.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.76232b81.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.76232b81.js.map",
-    "static/css/2.d45d6843.chunk.css": "/portfolio/static/css/2.d45d6843.chunk.css",
-    "static/js/2.95dbbc02.chunk.js": "/portfolio/static/js/2.95dbbc02.chunk.js",
-    "static/js/2.95dbbc02.chunk.js.map": "/portfolio/static/js/2.95dbbc02.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.7fdb25ae.chunk.css",
+    "main.js": "/portfolio/static/js/main.64008fa6.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.64008fa6.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.9b714617.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.9b714617.js.map",
+    "static/css/2.3a251c85.chunk.css": "/portfolio/static/css/2.3a251c85.chunk.css",
+    "static/js/2.23739835.chunk.js": "/portfolio/static/js/2.23739835.chunk.js",
+    "static/js/2.23739835.chunk.js.map": "/portfolio/static/js/2.23739835.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/2.d45d6843.chunk.css.map": "/portfolio/static/css/2.d45d6843.chunk.css.map",
-    "static/css/main.eb97b890.chunk.css.map": "/portfolio/static/css/main.eb97b890.chunk.css.map",
-    "static/js/2.95dbbc02.chunk.js.LICENSE.txt": "/portfolio/static/js/2.95dbbc02.chunk.js.LICENSE.txt",
+    "static/css/2.3a251c85.chunk.css.map": "/portfolio/static/css/2.3a251c85.chunk.css.map",
+    "static/css/main.7fdb25ae.chunk.css.map": "/portfolio/static/css/main.7fdb25ae.chunk.css.map",
+    "static/js/2.23739835.chunk.js.LICENSE.txt": "/portfolio/static/js/2.23739835.chunk.js.LICENSE.txt",
     "static/media/cat-commando.53e21422.png": "/portfolio/static/media/cat-commando.53e21422.png",
+    "static/media/Links.css": "/portfolio/static/media/linkedInLogo.7a5b234d.jpeg",
     "static/media/notekeeper.651e1f5a.png": "/portfolio/static/media/notekeeper.651e1f5a.png",
     "static/media/quotes.3ab7f5a2.png": "/portfolio/static/media/quotes.3ab7f5a2.png",
     "static/media/weather.d1e731d6.png": "/portfolio/static/media/weather.d1e731d6.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.76232b81.js",
-    "static/css/2.d45d6843.chunk.css",
-    "static/js/2.95dbbc02.chunk.js",
-    "static/css/main.eb97b890.chunk.css",
-    "static/js/main.8f351952.chunk.js"
+    "static/js/runtime-main.9b714617.js",
+    "static/css/2.3a251c85.chunk.css",
+    "static/js/2.23739835.chunk.js",
+    "static/css/main.7fdb25ae.chunk.css",
+    "static/js/main.64008fa6.chunk.js"
   ]
 }
