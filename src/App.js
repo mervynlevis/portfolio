@@ -4,7 +4,6 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
-import Links from "./components/Links/Links";
 import Footer from "./components/Footer/Footer";
 
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -23,12 +22,9 @@ function App() {
     <div className="App">
       <Nav navHandler={contentChoiceHandler} />
       {chosenContent === "Home" && <Home aboutButtonHandler={contentChoiceHandler}/>}
-
       {(chosenContent === "About" || chosenContent === 'AboutBtn' || chosenContent === 'AboutBtnText') && <About />}
       {chosenContent === "Skills" && <Skills />}
       {chosenContent === "Projects" && <Projects />}
-      {/* {chosenContent === "Contact" && <Links />} */}
-
       <Footer />
     </div>
   );
